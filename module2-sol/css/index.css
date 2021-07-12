@@ -1,0 +1,137 @@
+body{
+  font-family: helvetica;
+}
+
+p{
+  margin-top: 30px;
+}
+
+.container{
+  width: 100%;
+}
+
+@media (min-width:992px) {
+  .header{
+    font-size: 180%;
+    margin:auto;
+    width: 40%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+  }
+
+  .title{
+    font-size: 125%;
+    margin:auto;
+    padding: 1px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+
+  .lg{
+    position: relative;
+    float: left;
+    width: 31%;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: grey;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .header{
+    font-size: 160%;
+    margin:auto;
+    width: 40%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+  }
+
+  .title{
+    font-size: 125%;
+    margin:auto;
+    padding: 1px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+
+  .md{
+    font-size: 80%;
+    position: relative;
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: grey;
+  }
+  .full{
+    width:98%;
+  }
+}
+
+@media (max-width:767px) {
+  .header{
+    font-size: 140%;
+    margin:auto;
+    width: 40%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+  }
+
+  .title{
+    font-size: 125%;
+    margin:auto;
+    padding: 1px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+
+  .sm{
+    font-size: 60%;
+    position: relative;
+    float: left;
+    width: 98%;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    color:black;
+    background-color: grey;
+  }
+}
